@@ -41,3 +41,10 @@ function mostrarLista() {
             });
            
         }
+
+
+        function Eliminar(index){
+            listaPersonas.splice(index, 1);
+            mostrarLista();
+        }
+
