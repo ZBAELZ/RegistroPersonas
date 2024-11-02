@@ -48,3 +48,8 @@ function mostrarLista() {
             mostrarLista();
         }
 
+        function Editar(index){
+
+            listaPersonas.splice(index, 1, { nombre:document.getElementById("Nombre").value, apellido:document.getElementById("Apellido").value ,cedula: document.getElementById("Cedula").value , edad:document.getElementById("Edad").value  });
+           mostrarLista();
+       }
