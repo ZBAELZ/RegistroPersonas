@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <title>REGISTRO</title>
 </head>
+
 <body>
     <main style="width: 80%; margin: auto;">
         <HEAder style="padding-bottom: 50px;">
 
         </HEAder>
         <div style="display: flex;">
-            <div style="padding-bottom: 50px; width: 50%; margin-right:10%;" >
+            <div style="padding-bottom: 50px; width: 50%; margin-right:10%;">
                 <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">NOMBRE</span>
-                <input id="Nombre" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    <span class="input-group-text" id="inputGroup-sizing-default">NOMBRE</span>
+                    <input id="Nombre" type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default">
                 </div>
                 <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">APELLIDO</span>
-                <input id="Apellido" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    <span class="input-group-text" id="inputGroup-sizing-default">APELLIDO</span>
+                    <input id="Apellido" type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default">
                 </div>
                 <div class="input-group mb-3">
                     <span class="input-group-text" id="inputGroup-sizing-default">CEDULA</span>
-                    <input id="Cedula" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-                    </div>
+                    <input id="Cedula" type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default">
+                </div>
                 <div class="input-group mb-3">
-                <span class="input-group-text" id="inputGroup-sizing-default">EDAD</span>
-                <input id="Edad" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                    <span class="input-group-text" id="inputGroup-sizing-default">EDAD</span>
+                    <input id="Edad" type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default">
                 </div>
 
                 <button id="Guardar" onclick="GuardarPersona()" type="button" class="btn btn-success">GUARDAR</button>
 
             </div>
 
-             <div style="width: 20%;">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, possimus consectetur! Ipsum delectus suscipit dignissimos, nulla modi tenetur fugiat mollitia, neque optio dicta ullam earum id debitis eaque aliquid dolorum?</p>
-             </div>
+            <div style="width: 20%;">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, possimus consectetur! Ipsum delectus
+                    suscipit dignissimos, nulla modi tenetur fugiat mollitia, neque optio dicta ullam earum id debitis
+                    eaque aliquid dolorum?</p>
+            </div>
         </div>
-          <table  class="table">
+        <table class="table">
             <thead class="table-light">
                 <tr>
                     <th>NOMBRE</th>
@@ -46,17 +54,19 @@
                     <th>CEDULA</th>
                     <th>EDAD</th>
                     <th>ACCIONES</th>
-                  </tr>
+                </tr>
             </thead>
             <tbody id="llenar">
-             
 
-                
+
+
             </tbody>
-          </table>
+        </table>
 
     </main>
     <script src="js/bootstrap.min.js"></script>
-      <script src="Script.js"></script>
+    <script src="Script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
+
 </html>
